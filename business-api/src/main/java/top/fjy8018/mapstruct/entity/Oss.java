@@ -30,38 +30,22 @@ public class Oss extends TenantEntity {
 
     private static final long serialVersionUID = 1L;
 
-    /**
-     * 主键
-     */
+
     private Long id;
-    /**
-     * 用户ID
-     */
+
     private Long userId;
-    /**
-     * 用户名
-     */
+
     private String username;
-    /**
-     * 文件地址
-     */
+
     private String link;
-    /**
-     * 原始文件名
-     */
+
     private String originalName;
 
-    /**
-     * 文件名
-     */
+
     private String fileName;
-    /**
-     * OSS类型，1：七牛云，2：阿里云
-     */
+
     private String ossType;
-    /**
-     * 备注
-     */
+
     private String remark;
 
 
