@@ -1,9 +1,11 @@
 package top.fjy8018.mapstruct;
 
-import junit.framework.TestCase;
 
-public class CompanyMapperTest extends TestCase {
+import org.junit.jupiter.api.Test;
 
+public class CompanyMapperTest {
+
+    @Test
     public void testStudentToPersonVO() {
         Student student = new Student();
         student.setUsername("stu1");
